@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 1462940998}
   - component: {fileID: 1462940999}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -468,6 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c395496784f54574f8216bc988cc1c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1514490362
 GameObject:
   m_ObjectHideFlags: 0
