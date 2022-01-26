@@ -1720,6 +1720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp
       objectReference: {fileID: 0}
+    - target: {fileID: 3815741389304182903, guid: d507b6656195edd4da363610f3def284, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
     - target: {fileID: 3815741389304183179, guid: d507b6656195edd4da363610f3def284, type: 3}
       propertyPath: m_RootOrder
       value: 0
