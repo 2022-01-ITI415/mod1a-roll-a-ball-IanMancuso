@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 0;
     public TextMeshProUGUI countText;
+    public TextMeshProUGUI winText;
     public GameObject winTextObject;
     
     private Rigidbody rb;
@@ -56,6 +57,11 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
 
             SetCountText();
+        }else if(other.gameObject.CompareTag("Drop"))
+        {
+            winText.text = "Game Over";
+            winTextObject.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
