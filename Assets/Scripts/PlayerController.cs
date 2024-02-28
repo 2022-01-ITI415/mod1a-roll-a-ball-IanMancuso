@@ -57,11 +57,12 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
 
             SetCountText();
-        }else if(other.gameObject.CompareTag("Drop"))
+        }else if(other.gameObject.CompareTag("Drop") || other.gameObject.CompareTag("Falloff"))
         {
             winText.text = "Game Over";
             winTextObject.SetActive(true);
             Time.timeScale = 0;
         }
+
     }
 }

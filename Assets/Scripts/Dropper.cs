@@ -10,7 +10,7 @@ public class Dropper : MonoBehaviour {
     public float        secondsBetweenAppleDrops = 0.5f;
  void Start () {
         // Dropping apples every second
-        Invoke( "Drop", 2f );
+        Invoke( "Drop", 0f );
     }
 
 void Drop() {      
